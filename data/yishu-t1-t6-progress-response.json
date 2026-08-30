@@ -1,0 +1,77 @@
+{
+  "responseId": "yishu-t1-t6-progress-20260829-01",
+  "requestId": "yishu-t1-t6-simplify-20260829",
+  "summary": "奕枢 T1–T6 只剩真人路径验收，停止扩张架构任务",
+  "blocks": [
+    {
+      "kind": "box",
+      "title": "奕枢 T1–T6 · 现在",
+      "text": "工程底座已经完成。不再添架构层，不再扩能力面。",
+      "x": 120,
+      "y": 2100,
+      "w": 1770,
+      "h": 130,
+      "color": "blue"
+    },
+    {
+      "kind": "image",
+      "src": "http://127.0.0.1:8768/screenshots/yishu-t1-pilot-response.png",
+      "altText": "真实奕枢 T1 pilot 的屏幕理解回答",
+      "x": 120,
+      "y": 2290,
+      "w": 754,
+      "h": 330,
+      "sourceW": 754,
+      "sourceH": 330,
+      "mimeType": "image/png"
+    },
+    {
+      "kind": "box",
+      "title": "已经完成",
+      "text": "1. Clicky / Runtime / Kernel 边界已收紧\n2. 记忆个人 / 项目 scope 污染已阻断\n3. 源码、Swift、Kernel、Runtime 全量门禁已绿\n4. 正式 App 来自干净提交 74f45fd，且单实例运行",
+      "x": 930,
+      "y": 2290,
+      "w": 460,
+      "h": 330,
+      "color": "green"
+    },
+    {
+      "kind": "arrow",
+      "x": 1390,
+      "y": 2455,
+      "endX": 1460,
+      "endY": 2455,
+      "text": "只剩可见验收",
+      "color": "blue"
+    },
+    {
+      "kind": "box",
+      "title": "之后只做 3 件事",
+      "text": "T1 · 屏幕：长按后回答当前页面\nT2 · 动作：Finder 返回上级，可读回\nT3 · 记忆：写入 → 召回 → 忘记 → 重启不复活\n\n除非真实路径被阻断，否则不再改架构。",
+      "x": 1460,
+      "y": 2290,
+      "w": 430,
+      "h": 330,
+      "color": "orange"
+    },
+    {
+      "kind": "note",
+      "text": "真实 pilot：回答正确，但按键只有 4.797 秒，不计入正式样本。\n\n当前另有 1 个 T1 Eval 规则对齐 WIP，未提交、不可 ship。",
+      "x": 120,
+      "y": 2690,
+      "w": 754,
+      "h": 230,
+      "color": "yellow"
+    },
+    {
+      "kind": "box",
+      "title": "请你只决定这一件事",
+      "text": "A. 保留原目标：T1 / T2 / T3 各做 10 次真人验收\nB. 本轮收紧：每条只做 1 次真实通过，然后停止\n\n我建议 B。已经三个多小时，现在更缺的是三条路都真的跑通，不是更多重复次数。",
+      "x": 930,
+      "y": 2690,
+      "w": 960,
+      "h": 230,
+      "color": "violet"
+    }
+  ]
+}

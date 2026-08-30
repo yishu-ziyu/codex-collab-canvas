@@ -1,0 +1,41 @@
+{
+  "approvalId": "approval-1788013482111",
+  "projectId": "econpaper",
+  "requestId": "request-1788013123124",
+  "responseId": "econpaper-kimi-conversation-sidebars-20260829-02",
+  "createdAt": "2026-08-29T14:24:42.111Z",
+  "selectedShapeIds": [
+    "shape:codex-econpaper-kimi-conversation-sidebars-20260829-02-0"
+  ],
+  "shapes": [
+    {
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "source": "codex",
+        "responseId": "econpaper-kimi-conversation-sidebars-20260829-02",
+        "requestId": "request-1788013123124"
+      },
+      "id": "shape:codex-econpaper-kimi-conversation-sidebars-20260829-02-0",
+      "type": "image",
+      "props": {
+        "w": 1280,
+        "h": 720,
+        "assetId": "asset:codex-econpaper-kimi-conversation-sidebars-20260829-02-0",
+        "playing": true,
+        "url": "",
+        "crop": null,
+        "flipX": false,
+        "flipY": false,
+        "altText": "econpaper 单页对话与可缩放双侧栏提案"
+      },
+      "parentId": "page:page",
+      "index": "a4kf6",
+      "typeName": "shape"
+    }
+  ],
+  "savedAt": "2026-08-29T14:24:42.115Z"
+}

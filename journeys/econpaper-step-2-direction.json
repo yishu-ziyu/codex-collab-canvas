@@ -1,0 +1,85 @@
+{
+  "responseId": "econpaper-journey-step-2-20260829-01",
+  "requestId": "product-understanding-20260829",
+  "createdAt": "2026-08-29T21:40:00+08:00",
+  "summary": "已放入 econpaper 第二幕：提交想法后的方向凝练页面",
+  "blocks": [
+    {
+      "kind": "arrow",
+      "x": 600,
+      "y": 1820,
+      "endX": 600,
+      "endY": 2000,
+      "text": "提交一句话",
+      "color": "blue"
+    },
+    {
+      "kind": "box",
+      "title": "第二幕 · 方向凝练（真实当前态）",
+      "text": "用户提交一句想法后，系统先生成候选研究问题，不进入正文。",
+      "x": 120,
+      "y": 2020,
+      "w": 960,
+      "h": 120,
+      "color": "blue"
+    },
+    {
+      "kind": "image",
+      "src": "http://127.0.0.1:8768/screenshots/econpaper-step-2-direction.jpg",
+      "altText": "econpaper 提交一句研究想法后的方向凝练页面",
+      "x": 120,
+      "y": 2180,
+      "w": 960,
+      "h": 540,
+      "sourceW": 1600,
+      "sourceH": 900,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "kind": "box",
+      "title": "用户下一步做什么",
+      "text": "1. 审阅并修改候选研究问题\n2. 选择：政策效果 / 影响对象 / 差距变化\n3. 补齐比较关系与结果变量\n4. 确认问题，再带入数据",
+      "x": 1160,
+      "y": 2180,
+      "w": 420,
+      "h": 270,
+      "color": "green"
+    },
+    {
+      "kind": "note",
+      "title": "当前真实风险",
+      "text": "输入：数字经济 → 制造业企业生产率\n输出：数字经济 → 企业用工和工资\n\n结果变量被系统擅自改写。页面承诺“用户原话不会被丢掉”，但这一幕没有守住。",
+      "x": 1160,
+      "y": 2500,
+      "w": 420,
+      "h": 300,
+      "color": "red"
+    },
+    {
+      "kind": "box",
+      "title": "第二幕完成条件",
+      "text": "原始意图被保留；候选问题可编辑；研究对象、比较关系与结果变量明确，并由用户确认。\n\n满足后才进入数据匹配与变量设定。",
+      "x": 120,
+      "y": 2780,
+      "w": 960,
+      "h": 190,
+      "color": "violet"
+    },
+    {
+      "kind": "arrow",
+      "x": 1080,
+      "y": 2360,
+      "endX": 1160,
+      "endY": 2320,
+      "color": "green"
+    },
+    {
+      "kind": "arrow",
+      "x": 1080,
+      "y": 2520,
+      "endX": 1160,
+      "endY": 2640,
+      "color": "red"
+    }
+  ]
+}

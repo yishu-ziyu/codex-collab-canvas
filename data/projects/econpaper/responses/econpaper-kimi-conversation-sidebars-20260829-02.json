@@ -1,0 +1,22 @@
+{
+  "responseId": "econpaper-kimi-conversation-sidebars-20260829-02",
+  "requestId": "request-1788013123124",
+  "projectId": "econpaper",
+  "createdAt": "2026-08-29T22:32:00+08:00",
+  "summary": "提案更新：对话为主舞台，两侧栏可展开、收窄或折叠",
+  "blocks": [
+    {
+      "kind": "image",
+      "src": "http://127.0.0.1:8768/screenshots/econpaper-proposal-conversation-sidebars.svg",
+      "altText": "econpaper 单页对话与可缩放双侧栏提案",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "sourceW": 1600,
+      "sourceH": 900,
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "savedAt": "2026-08-29T14:23:51.172Z"
+}

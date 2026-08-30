@@ -1,0 +1,71 @@
+{
+  "responseId": "econpaper-active-decision-scene-2-20260829-01",
+  "requestId": "econpaper-new-canvas-method-20260829",
+  "projectId": "econpaper",
+  "createdAt": "2026-08-29T21:56:00+08:00",
+  "summary": "第二幕：只判断系统是否忠实保留了研究意图",
+  "blocks": [
+    {
+      "kind": "box",
+      "title": "第二幕 · 系统回应",
+      "text": "现在只判断一件事：它有没有忠实保留你的研究意图？",
+      "x": 0,
+      "y": 0,
+      "w": 1460,
+      "h": 90,
+      "color": "blue"
+    },
+    {
+      "kind": "image",
+      "src": "http://127.0.0.1:8768/screenshots/econpaper-scene-2-intent-preserved.png",
+      "altText": "econpaper 输入研究问题后的真实系统回应",
+      "x": 0,
+      "y": 120,
+      "w": 1040,
+      "h": 585,
+      "sourceW": 1600,
+      "sourceH": 900,
+      "mimeType": "image/png"
+    },
+    {
+      "kind": "box",
+      "title": "已观察",
+      "text": "用户输入：数字经济发展 → 制造业企业 → 生产率\n\n系统显示的研究问题保持了这三个核心内容，没有再跳到“用工和工资”。",
+      "x": 1080,
+      "y": 120,
+      "w": 380,
+      "h": 190,
+      "color": "green"
+    },
+    {
+      "kind": "box",
+      "title": "系统下一步",
+      "text": "不替用户改题，只追问一个缺口：你现在更想弄清哪一件事？",
+      "x": 1080,
+      "y": 335,
+      "w": 380,
+      "h": 150,
+      "color": "blue"
+    },
+    {
+      "kind": "box",
+      "title": "请你决定",
+      "text": "直接在截图上圈出不对的地方。\n\n如果这一幕整体正确，就批准；我们再画用户选择之后的下一幕。",
+      "x": 1080,
+      "y": 510,
+      "w": 380,
+      "h": 195,
+      "color": "orange"
+    },
+    {
+      "kind": "arrow",
+      "x": 1080,
+      "y": 215,
+      "endX": 930,
+      "endY": 300,
+      "text": "输入与输出一致",
+      "color": "green"
+    }
+  ],
+  "savedAt": "2026-08-29T13:53:46.322Z"
+}

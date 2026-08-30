@@ -1,0 +1,252 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #171717;
+  background: #f7f7f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app-shell {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.app-shell {
+  position: relative;
+}
+
+.project-switcher,
+.view-switcher,
+.context-composer,
+.canvas-guide,
+.canvas-status {
+  position: absolute;
+  z-index: 300;
+  border: 1px solid rgba(24, 24, 24, 0.12);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 8px 28px rgba(20, 20, 20, 0.1);
+  backdrop-filter: blur(16px);
+}
+
+.project-switcher {
+  top: 12px;
+  left: 12px;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 12px;
+}
+
+.project-switcher button {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 9px;
+  color: #686868;
+  background: transparent;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.project-switcher button:hover {
+  background: #f2f2f0;
+}
+
+.project-switcher button.is-active {
+  color: #171717;
+  background: #e9eefb;
+  font-weight: 700;
+}
+
+.view-switcher {
+  top: 12px;
+  left: 50%;
+  display: flex;
+  gap: 3px;
+  padding: 4px;
+  transform: translateX(-50%);
+  border-radius: 12px;
+}
+
+.view-switcher button {
+  min-width: 68px;
+  height: 32px;
+  border: 0;
+  border-radius: 9px;
+  color: #747474;
+  background: transparent;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.view-switcher button.is-active {
+  color: #171717;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(20, 20, 20, 0.1);
+  font-weight: 700;
+}
+
+.context-composer {
+  width: 360px;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+.context-composer::before {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: solid rgba(24, 24, 24, 0.12);
+  background: rgba(255, 255, 255, 0.96);
+  content: '';
+  transform: rotate(45deg);
+}
+
+.context-composer[data-side='right']::before {
+  top: 22px;
+  left: -6px;
+  border-width: 0 0 1px 1px;
+}
+
+.context-composer[data-side='left']::before {
+  top: 22px;
+  right: -6px;
+  border-width: 1px 1px 0 0;
+}
+
+.context-composer[data-side='below']::before {
+  top: -6px;
+  left: 24px;
+  border-width: 1px 0 0 1px;
+}
+
+.context-composer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.context-composer__header strong {
+  font-size: 13px;
+}
+
+.context-composer__header span {
+  color: #888;
+  font-size: 11px;
+}
+
+.context-composer input {
+  width: 100%;
+  height: 40px;
+  padding: 0 11px;
+  border: 1px solid rgba(24, 24, 24, 0.12);
+  border-radius: 10px;
+  outline: none;
+  background: #f7f7f5;
+  font: inherit;
+}
+
+.context-composer input:focus {
+  border-color: rgba(47, 111, 237, 0.55);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(47, 111, 237, 0.1);
+}
+
+.context-composer__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.context-composer__actions button {
+  height: 34px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 9px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.context-composer__secondary {
+  color: #646464;
+  background: transparent;
+}
+
+.context-composer__secondary:hover {
+  background: #f0f0ed;
+}
+
+.context-composer__submit,
+.context-composer__approve {
+  color: #fff;
+  background: #171717;
+}
+
+.context-composer__submit:hover,
+.context-composer__approve:hover {
+  background: #303030;
+}
+
+.context-composer__submit:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.canvas-guide {
+  right: 12px;
+  bottom: 76px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #6a6a6a;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.canvas-status {
+  top: 62px;
+  left: 50%;
+  max-width: min(72vw, 560px);
+  transform: translateX(-50%);
+  padding: 9px 13px;
+  border-radius: 999px;
+  color: #575757;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .project-switcher {
+    max-width: calc(100vw - 24px);
+    overflow-x: auto;
+  }
+
+  .context-composer {
+    top: auto !important;
+    left: 12px !important;
+    right: 12px;
+    bottom: 76px;
+    width: auto;
+  }
+
+  .context-composer::before {
+    display: none;
+  }
+
+  .canvas-status {
+    top: 58px;
+    max-width: calc(100vw - 20px);
+  }
+}

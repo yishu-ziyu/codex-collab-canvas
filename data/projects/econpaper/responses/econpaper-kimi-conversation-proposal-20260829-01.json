@@ -1,0 +1,22 @@
+{
+  "responseId": "econpaper-kimi-conversation-proposal-20260829-01",
+  "requestId": "request-1788013123124",
+  "projectId": "econpaper",
+  "createdAt": "2026-08-29T22:24:00+08:00",
+  "summary": "提案：把研究工作台收成一页连续对话",
+  "blocks": [
+    {
+      "kind": "image",
+      "src": "http://127.0.0.1:8768/screenshots/econpaper-proposal-conversation.svg",
+      "altText": "econpaper 单页连续对话提案",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "sourceW": 1600,
+      "sourceH": 900,
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "savedAt": "2026-08-29T14:20:47.508Z"
+}
